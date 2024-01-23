@@ -29,7 +29,7 @@
                     colors: {
                         clifford: '#da373d',
                         'hockey-primary': '#FF4240',
-                        'hockey-primary-bg': 'rgba(231, 111, 81, 0.10)',
+                        'hockey-primary-subtext': 'rgba(19, 19, 24, 0.60)',
                     }
                 }
             }
@@ -37,8 +37,8 @@
     </script>
 </head>
 
-<body class="container lg:mx-auto sm:mx-auto Manrope">
-    <header>
+<body class="Manrope">
+    <header class="container sm:mx-auto lg:px-36">
         <!-- navigation bar -->
         <nav>
             <div class="navbar bg-base-100">
@@ -55,7 +55,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-4xl font-extrabold text-">Hockey<span class="text-hockey-primary">’</span>s</a>
+                <a class="font-extrabold lg:text-4xl sm:text-2xl ">Hockey<span class="text-hockey-primary">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="font-normal text-base menu menu-horizontal px-1">
@@ -99,8 +99,74 @@
               </div>
             </div> 
           </div>
-
     </header>
+    <main class="container sm:mx-auto lg:px-36">
+        <!-- hockey clubs -->
+        <div class="mt-14">
+            <!-- title and description -->
+            <div class="flex flex-col items-center text-center self-center border-t-2 border-b-2 border-dotted p-8">
+                <h2 class="font-extrabold text-4xl">Professional Hockeys Club</h2>
+                <p class="text-hockey-primary-subtext text-base font-medium lg:w-[600px]">Elevate your game with the ultimate experience. Join our Professional Hockey Club for elite training, camaraderie, and success on ice!</p>
+            </div>
+            <!-- statistics -->
+            <div class="mt-12">
+                <!-- items -->
+                <div class="flex justify-center flex-col sm:flex-col lg:flex-row gap-5">
+                    
+                    <!-- item Prayer Facilities-->
+                    <div class="flex flex-col items-center">
+                        <!-- progressbar -->
+                        <div class="radial-progress text-[#FF4240] rotate-[125deg] " style="--value:87;  --size:10rem; --thickness: 15px;"
+                            role="progressbar"><span class="text-black rotate-[-125deg] font-extrabold text-3xl">87%</span>
+                        </div>
+                        <!-- title -->
+                        <h4 class="text-center font-semibold text-xl">Prayer Facility</h4>
+                        <!-- description -->
+                        <p class="text-center text-hockey-primary-subtext lg:w-64">Find peace and serenity in our state-of-the-art Prayer Facility.</p>
+                    </div>
+                    
+                    <!-- item Experienced Coach -->
+                    <div class="flex flex-col items-center">
+                        <!-- progressbar -->
+                        <div class="radial-progress text-[#49D293] rotate-[125deg] " style="--value:95;  --size:10rem; --thickness: 15px;"
+                            role="progressbar"><span class="text-black rotate-[-125deg] font-extrabold text-3xl">95%</span>
+                        </div>
+                        <!-- title -->
+                        <h4 class="text-center font-semibold text-xl">Experienced Coach</h4>
+                        <!-- description -->
+                        <p class="text-center text-hockey-primary-subtext lg:w-64">Unlock your full potential with our Experienced Coach.</p>
+                    </div>
+
+                    <!-- item Training Ground-->
+                    <div class="flex flex-col items-center">
+                        <!-- progressbar -->
+                        <div class="radial-progress text-[#FFB546] rotate-[125deg] " style="--value:80;  --size:10rem; --thickness: 15px;"
+                            role="progressbar"><span class="text-black rotate-[-125deg] font-extrabold text-3xl">80%</span>
+                        </div>
+                        <!-- title -->
+                        <h4 class="text-center font-semibold text-xl">Training Ground</h4>
+                        <!-- description -->
+                        <p class="text-center text-hockey-primary-subtext lg:w-64">Unleash your potential at our cutting-edge Training Ground.</p>
+                    </div>
+
+                    <!-- item Senior Player-->
+                    <div class="flex flex-col items-center">
+                        <!-- progressbar -->
+                        <div class="radial-progress text-[#4C8DF1] rotate-[125deg] " style="--value:90;  --size:10rem; --thickness: 15px;"
+                            role="progressbar"><span class="text-black rotate-[-125deg] font-extrabold text-3xl">90%</span>
+                        </div>
+                        <!-- title -->
+                        <h4 class="text-center font-semibold text-xl">Senior Player</h4>
+                        <!-- description -->
+                        <p class="text-center text-hockey-primary-subtext lg:w-64">Join as a Senior Player for leadership!</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
 </body>
 
 </html>
